@@ -1,0 +1,6 @@
+framework module Pods_MenuTransition_MenuTransitionUITests {
+  umbrella header "Pods-MenuTransition-MenuTransitionUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

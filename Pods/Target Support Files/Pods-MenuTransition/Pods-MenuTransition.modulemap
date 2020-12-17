@@ -1,0 +1,6 @@
+framework module Pods_MenuTransition {
+  umbrella header "Pods-MenuTransition-umbrella.h"
+
+  export *
+  module * { export * }
+}
