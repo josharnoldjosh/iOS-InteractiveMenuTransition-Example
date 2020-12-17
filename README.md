@@ -28,4 +28,12 @@ func setupTransition() {
     vc.transitioningDelegate = self.transition
     self.transition.setupPan(startVC: self, finishVC: vc)
 }
-```
+```  
+Oh, and don't forget to add the `podfile` and do `pod install`!
+
+
+## Architecture
+
+Here's a brief example of what's going on under the hood. Using `UIPercentDrivenInteractiveTransition` makes things slightly more complex than a normal custom transition, but taking a look at `CustomTransition.swift` should demonstrate its functionality in a straight forward way.  
+
+![Example](example.png)
